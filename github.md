@@ -8,3 +8,5 @@ git checkout master
 git merge --no-ff develop
 合并分支内容
 develop-may
+#全局存储账号
+git config --global credential.helper wincred
